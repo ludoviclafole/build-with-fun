@@ -1,4 +1,5 @@
 {
+	"type": "module",
 	"scripts": {
 		"start": "wmr",
 		"build": "wmr build --prerender",
@@ -17,6 +18,14 @@
 		"preact-iso": "^2.0.2"
 	},
 	"devDependencies": {
+		"@types/node": "^15.3.1",
+		"html-minifier": "^4.0.0",
+		"jsdom": "^16.5.3",
+		"jsdom-global": "^3.0.2",
+		"marked": "^2.0.4",
+		"marked-metadata": "^0.0.6",
+		"preact-markup": "^2.1.1",
+		"preact-render-to-string": "^5.1.19",
 		"wmr": "^2.1.0"
 	}
 }

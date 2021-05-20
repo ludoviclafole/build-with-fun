@@ -1,8 +1,11 @@
+import list from "ls:./test"
+
 export default function Home() {
     return (
         <>
             <h1>Home</h1>
             <p>This is the home page.</p>
+            {JSON.stringify(list)}
         </>
     )
 }
